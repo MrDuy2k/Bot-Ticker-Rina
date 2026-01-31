@@ -1,0 +1,330 @@
+[
+    {
+        "id": "ho-tro",
+        "name": "1. Hỗ Trợ Kỹ Thuật",
+        "description": "Báo lỗi game, mất đồ, lỗi tài khoản...",
+        "type": "ticket",
+        "button": {
+            "emoji": "🛠️",
+            "label": "Hỗ Trợ",
+            "color": "green"
+        },
+        "ticketAdmins": ["DIEN_ID_ROLE_SUPPORT_VAO_DAY"],
+        "readonlyAdmins": [],
+        "allowCreationByBlacklistedUsers": false,
+        "questions": [],
+        "channel": {
+            "prefix": "support-",
+            "suffix": "user-name",
+            "category": "DIEN_ID_CATEGORY_CHUA_TICKET",
+            "closedCategory": "DIEN_ID_CATEGORY_LUU_TRU",
+            "backupCategory": "",
+            "claimedCategory": [],
+            "topic": "Hỗ trợ kỹ thuật PumpkinMC"
+        },
+        "dmMessage": {
+            "enabled": false,
+            "text": "",
+            "embed": {
+                "enabled": false,
+                "title": "",
+                "description": "",
+                "customColor": "",
+                "image": "",
+                "thumbnail": "",
+                "fields": [],
+                "timestamp": false
+            }
+        },
+        "ticketMessage": {
+            "enabled": true,
+            "text": "",
+            "embed": {
+                "enabled": true,
+                "title": "🛠️ HỖ TRỢ KỸ THUẬT",
+                "description": "Chào bạn! Staff đã nhận được yêu cầu.\n\n👉 Vui lòng mô tả chi tiết lỗi bạn gặp phải (kèm ảnh/video) để được xử lý nhanh nhất nhé!",
+                "customColor": "#00FF00",
+                "image": "",
+                "thumbnail": "",
+                "fields": [],
+                "timestamp": true
+            },
+            "ping": {
+                "@here": true,
+                "@everyone": false,
+                "custom": []
+            }
+        },
+        "autoclose": {
+            "enableInactiveHours": true,
+            "inactiveHours": 48,
+            "enableUserLeave": true,
+            "disableOnClaim": true
+        },
+        "autodelete": {
+            "enableInactiveDays": false,
+            "inactiveDays": 7,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "cooldown": {
+            "enabled": true,
+            "cooldownMinutes": 5
+        },
+        "limits": {
+            "enabled": true,
+            "globalMaximum": 50,
+            "userMaximum": 1
+        },
+        "slowMode": {
+            "enabled": false,
+            "slowModeSeconds": 0
+        }
+    },
+    {
+        "id": "to-cao",
+        "name": "2. Báo Cáo Hack/Cheat",
+        "description": "Tố cáo người chơi gian lận, phá server.",
+        "type": "ticket",
+        "button": {
+            "emoji": "🚨",
+            "label": "Tố Cáo",
+            "color": "red"
+        },
+        "ticketAdmins": ["DIEN_ID_ROLE_ADMIN_VAO_DAY"],
+        "readonlyAdmins": [],
+        "allowCreationByBlacklistedUsers": false,
+        "questions": [],
+        "channel": {
+            "prefix": "report-",
+            "suffix": "user-name",
+            "category": "DIEN_ID_CATEGORY_CHUA_TICKET",
+            "closedCategory": "DIEN_ID_CATEGORY_LUU_TRU",
+            "backupCategory": "",
+            "claimedCategory": [],
+            "topic": "Tố cáo vi phạm"
+        },
+        "dmMessage": {
+            "enabled": false,
+            "text": "",
+            "embed": {
+                "enabled": false,
+                "title": "",
+                "description": "",
+                "customColor": "",
+                "image": "",
+                "thumbnail": "",
+                "fields": [],
+                "timestamp": false
+            }
+        },
+        "ticketMessage": {
+            "enabled": true,
+            "text": "",
+            "embed": {
+                "enabled": true,
+                "title": "🚨 TIẾP NHẬN TỐ CÁO",
+                "description": "Cảm ơn bạn đã giúp giữ sạch server!\n\n👉 Vui lòng cung cấp:\n- Tên nhân vật vi phạm\n- Loại Hack/Cheat nghi vấn\n- **Video/Hình ảnh bằng chứng** (Bắt buộc)",
+                "customColor": "#FF0000",
+                "image": "",
+                "thumbnail": "",
+                "fields": [],
+                "timestamp": true
+            },
+            "ping": {
+                "@here": true,
+                "@everyone": false,
+                "custom": []
+            }
+        },
+        "autoclose": {
+            "enableInactiveHours": true,
+            "inactiveHours": 48,
+            "enableUserLeave": true,
+            "disableOnClaim": true
+        },
+        "autodelete": {
+            "enableInactiveDays": false,
+            "inactiveDays": 7,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "cooldown": {
+            "enabled": true,
+            "cooldownMinutes": 10
+        },
+        "limits": {
+            "enabled": true,
+            "globalMaximum": 50,
+            "userMaximum": 1
+        },
+        "slowMode": {
+            "enabled": false,
+            "slowModeSeconds": 0
+        }
+    },
+    {
+        "id": "ung-ho",
+        "name": "3. Ủng Hộ / Nạp Thẻ",
+        "description": "Mua Rank, Xu hoặc Donate cho Server.",
+        "type": "ticket",
+        "button": {
+            "emoji": "💎",
+            "label": "Donate",
+            "color": "blue"
+        },
+        "ticketAdmins": ["DIEN_ID_ROLE_ADMIN_VAO_DAY"],
+        "readonlyAdmins": [],
+        "allowCreationByBlacklistedUsers": false,
+        "questions": [],
+        "channel": {
+            "prefix": "donate-",
+            "suffix": "user-name",
+            "category": "DIEN_ID_CATEGORY_CHUA_TICKET",
+            "closedCategory": "DIEN_ID_CATEGORY_LUU_TRU",
+            "backupCategory": "",
+            "claimedCategory": [],
+            "topic": "Ủng hộ server"
+        },
+        "dmMessage": {
+            "enabled": false,
+            "text": "",
+            "embed": {
+                "enabled": false,
+                "title": "",
+                "description": "",
+                "customColor": "",
+                "image": "",
+                "thumbnail": "",
+                "fields": [],
+                "timestamp": false
+            }
+        },
+        "ticketMessage": {
+            "enabled": true,
+            "text": "",
+            "embed": {
+                "enabled": true,
+                "title": "💎 CẢM ƠN BẠN ĐÃ ỦNG HỘ",
+                "description": "Cảm ơn bạn đã quan tâm donate cho PumpkinMC!\n\n👉 Vui lòng cho biết bạn muốn nạp qua hình thức nào (Thẻ cào/Momo/Bank) hoặc cần mua gói Rank nào?",
+                "customColor": "#0099FF",
+                "image": "",
+                "thumbnail": "",
+                "fields": [],
+                "timestamp": true
+            },
+            "ping": {
+                "@here": true,
+                "@everyone": false,
+                "custom": []
+            }
+        },
+        "autoclose": {
+            "enableInactiveHours": true,
+            "inactiveHours": 24,
+            "enableUserLeave": true,
+            "disableOnClaim": true
+        },
+        "autodelete": {
+            "enableInactiveDays": false,
+            "inactiveDays": 7,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "cooldown": {
+            "enabled": true,
+            "cooldownMinutes": 5
+        },
+        "limits": {
+            "enabled": true,
+            "globalMaximum": 100,
+            "userMaximum": 2
+        },
+        "slowMode": {
+            "enabled": false,
+            "slowModeSeconds": 0
+        }
+    },
+    {
+        "id": "khac",
+        "name": "4. Vấn Đề Khác",
+        "description": "Góp ý, xin làm Staff hoặc vấn đề khác.",
+        "type": "ticket",
+        "button": {
+            "emoji": "📌",
+            "label": "Khác",
+            "color": "gray"
+        },
+        "ticketAdmins": ["DIEN_ID_ROLE_SUPPORT_VAO_DAY"],
+        "readonlyAdmins": [],
+        "allowCreationByBlacklistedUsers": false,
+        "questions": [],
+        "channel": {
+            "prefix": "other-",
+            "suffix": "user-name",
+            "category": "DIEN_ID_CATEGORY_CHUA_TICKET",
+            "closedCategory": "DIEN_ID_CATEGORY_LUU_TRU",
+            "backupCategory": "",
+            "claimedCategory": [],
+            "topic": "Vấn đề khác"
+        },
+        "dmMessage": {
+            "enabled": false,
+            "text": "",
+            "embed": {
+                "enabled": false,
+                "title": "",
+                "description": "",
+                "customColor": "",
+                "image": "",
+                "thumbnail": "",
+                "fields": [],
+                "timestamp": false
+            }
+        },
+        "ticketMessage": {
+            "enabled": true,
+            "text": "",
+            "embed": {
+                "enabled": true,
+                "title": "📌 HỖ TRỢ KHÁC",
+                "description": "Chào bạn, bạn cần hỗ trợ vấn đề gì?\nVui lòng nhắn tin chi tiết bên dưới nhé!",
+                "customColor": "#808080",
+                "image": "",
+                "thumbnail": "",
+                "fields": [],
+                "timestamp": true
+            },
+            "ping": {
+                "@here": true,
+                "@everyone": false,
+                "custom": []
+            }
+        },
+        "autoclose": {
+            "enableInactiveHours": true,
+            "inactiveHours": 48,
+            "enableUserLeave": true,
+            "disableOnClaim": true
+        },
+        "autodelete": {
+            "enableInactiveDays": false,
+            "inactiveDays": 7,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "cooldown": {
+            "enabled": true,
+            "cooldownMinutes": 5
+        },
+        "limits": {
+            "enabled": true,
+            "globalMaximum": 50,
+            "userMaximum": 1
+        },
+        "slowMode": {
+            "enabled": false,
+            "slowModeSeconds": 0
+        }
+    }
+]

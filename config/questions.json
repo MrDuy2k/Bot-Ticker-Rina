@@ -1,0 +1,28 @@
+[
+    {
+        "id":"cau-hoi-ign",
+        "name":"Tên nhân vật (Ingame Name)",
+        "type":"short",
+        
+        "required":true,
+        "placeholder":"Nhập chính xác tên trong game của bạn...",
+        "length":{
+            "enabled":true,
+            "min":3,
+            "max":30
+        }
+    },
+    {
+        "id":"cau-hoi-van-de",
+        "name":"Mô tả chi tiết vấn đề",
+        "type":"paragraph",
+        
+        "required":true,
+        "placeholder":"Bạn gặp lỗi gì? Tố cáo ai? Hoặc cần hỗ trợ nạp thẻ? (Ghi rõ ngày giờ nếu có)",
+        "length":{
+            "enabled":true,
+            "min":10,
+            "max":1000
+        }
+    }
+]

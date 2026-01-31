@@ -1,0 +1,55 @@
+{
+    "general":{
+        "enabled":true,
+
+        "enableChannel":true,
+        "enableCreatorDM":true,
+        "enableParticipantDM":false,
+        "enableActiveAdminDM":false,
+        "enableEveryAdminDM":false,
+
+        "channel":"Điền id kênh lưu trainscript vào đây",
+        "mode":"html"
+    },
+    "embedSettings":{
+        "customColor":"#FF7518",
+        "listAllParticipants":true,
+        "includeTicketStats":true
+    },
+    "textTranscriptStyle":{
+        "layout":"normal",
+        "includeStats":true,
+        "includeIds":true,
+        "includeEmbeds":true,
+        "includeFiles":true,
+        "includeBotMessages":true,
+
+        "fileMode":"channel-name",
+        "customFileName":""
+    },
+    "htmlTranscriptStyle":{
+        "background":{
+            "enableCustomBackground":false,
+            "backgroundColor":"",
+            "backgroundImage":"" 
+        },
+        "header":{
+            "enableCustomHeader":true,
+            "backgroundColor":"#202225",
+            "decoColor":"#FF7518",
+            "textColor":"#ffffff"
+        },
+        "stats":{
+            "enableCustomStats":false,
+            "backgroundColor":"#202225",
+            "keyTextColor":"#737373",
+            "valueTextColor":"#ffffff",
+            "hideBackgroundColor":"#40444a",
+            "hideTextColor":"#ffffff"
+        },
+        "favicon":{
+            "enableCustomFavicon":false,
+            "imageUrl":""
+        }
+    }
+}

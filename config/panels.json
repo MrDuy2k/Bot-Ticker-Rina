@@ -1,0 +1,37 @@
+[
+    {
+        "id": "panel-chinh",
+        "name": "Trang Chủ Hỗ Trợ",
+        "dropdown": true,
+        "options": ["ho-tro", "to-cao", "ung-ho", "khac"],
+
+        "text": "",
+        "embed": {
+            "enabled": true,
+            "title": "✨・RINAMC NETWORK TEAM・",
+            "description": "> *Chào mừng lữ khách đến với thế giới RINAMC! (≧◡≦) ♡*\n\nBạn đang gặp khó khăn? Đừng lo, đội ngũ Staff luôn sẵn sàng hỗ trợ bạn.\nHãy chọn đúng vấn đề bạn đang gặp phải ở **Menu bên dưới** nhé!\n\n👇 **DANH MỤC HỖ TRỢ:**\n\n🛠️ **Hỗ Trợ Kỹ Thuật**: Lỗi game, mất đồ, kẹt acc...\n🚨 **Báo Cáo Hack**: Tố cáo gian lận (Kèm bằng chứng).\n💎 **Ủng Hộ Server**: Nạp thẻ, mua Rank, Donate.\n📌 **Khác**: Góp ý, tuyển dụng, sự kiện.\n\n════════════════════════\n⚠️ **LƯU Ý:** *Spam ticket hoặc troll sẽ bị cấm khỏi hệ thống!*",
+            
+            "customColor": "#FF7518",
+            "url": "https://pumpkinmc.net",
+
+            "image": "https://i.imgur.com/aXHP48w.jpeg",
+            "thumbnail": "https://minecraft.wiki/images/Carved_Pumpkin_%28N%29_JE5.png?32a4a&format=original",
+            
+            "footer": "Cảm ơn bạn đã đồng hành! \n RinaMC NetWork Team © 2025",
+            "fields": [],
+            "timestamp": true
+        },
+        "settings": {
+            "dropdownPlaceholder": "🎟️ Create Ticket 🎟️",
+
+            "enableMaxTicketsWarningInText": false,
+            "enableMaxTicketsWarningInEmbed": true,
+
+            "describeOptionsLayout": "simple",
+            "describeOptionsCustomTitle": "",
+            "describeOptionsInText": false,
+            "describeOptionsInEmbedFields": false,
+            "describeOptionsInEmbedDescription": false
+        }
+    }
+]
