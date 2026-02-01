@@ -5,8 +5,8 @@
         "version":"open-ticket-v4.1.1"
     },
     
-    "token": ""
-    "tokenFromENV":false,
+    "tokenFromENV": true,
+    "token": "",
 
     "mainColor":"#FF7518",
     "language":"vietnamese",
