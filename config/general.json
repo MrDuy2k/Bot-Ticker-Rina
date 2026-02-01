@@ -5,14 +5,14 @@
         "version":"open-ticket-v4.1.1"
     },
     
-    "token":"[Key_Bot]",
+    "token": ""
     "tokenFromENV":false,
 
     "mainColor":"#FF7518",
     "language":"vietnamese",
     "prefix":"!ticket ",
-    "serverId":"[DIEN ID SERVER VÀO ĐÂY",
-    "globalAdmins":["DIỀN ID RELOE ADMIN"],
+    "serverId":1400311075731148992,
+    "globalAdmins":[1444715036399370250],
 
     "slashCommands":true,
     "textCommands":true,
