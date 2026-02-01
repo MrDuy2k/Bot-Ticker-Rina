@@ -9,18 +9,18 @@
             "label": "Hỗ Trợ",
             "color": "green"
         },
-        "ticketAdmins": ["DIEN_ID_ROLE_SUPPORT_VAO_DAY"],
+        "ticketAdmins": ["1444715036399370250"],
         "readonlyAdmins": [],
         "allowCreationByBlacklistedUsers": false,
         "questions": [],
         "channel": {
             "prefix": "support-",
             "suffix": "user-name",
-            "category": "DIEN_ID_CATEGORY_CHUA_TICKET",
-            "closedCategory": "DIEN_ID_CATEGORY_LUU_TRU",
+            "category": "1434037389097173085",
+            "closedCategory": "1466448620302630913",
             "backupCategory": "",
             "claimedCategory": [],
-            "topic": "Hỗ trợ kỹ thuật PumpkinMC"
+            "topic": "Hỗ trợ kỹ thuật RinaMC"
         },
         "dmMessage": {
             "enabled": false,
@@ -91,15 +91,15 @@
             "label": "Tố Cáo",
             "color": "red"
         },
-        "ticketAdmins": ["DIEN_ID_ROLE_ADMIN_VAO_DAY"],
+        "ticketAdmins": ["1444715036399370250"],
         "readonlyAdmins": [],
         "allowCreationByBlacklistedUsers": false,
         "questions": [],
         "channel": {
             "prefix": "report-",
             "suffix": "user-name",
-            "category": "DIEN_ID_CATEGORY_CHUA_TICKET",
-            "closedCategory": "DIEN_ID_CATEGORY_LUU_TRU",
+            "category": "1434037389097173085",
+            "closedCategory": "1466448620302630913",
             "backupCategory": "",
             "claimedCategory": [],
             "topic": "Tố cáo vi phạm"
@@ -173,15 +173,15 @@
             "label": "Donate",
             "color": "blue"
         },
-        "ticketAdmins": ["DIEN_ID_ROLE_ADMIN_VAO_DAY"],
+        "ticketAdmins": ["1444715036399370250"],
         "readonlyAdmins": [],
         "allowCreationByBlacklistedUsers": false,
         "questions": [],
         "channel": {
             "prefix": "donate-",
             "suffix": "user-name",
-            "category": "DIEN_ID_CATEGORY_CHUA_TICKET",
-            "closedCategory": "DIEN_ID_CATEGORY_LUU_TRU",
+            "category": "1434037389097173085",
+            "closedCategory": "1466448620302630913",
             "backupCategory": "",
             "claimedCategory": [],
             "topic": "Ủng hộ server"
@@ -255,15 +255,15 @@
             "label": "Khác",
             "color": "gray"
         },
-        "ticketAdmins": ["DIEN_ID_ROLE_SUPPORT_VAO_DAY"],
+        "ticketAdmins": ["1444715036399370250"],
         "readonlyAdmins": [],
         "allowCreationByBlacklistedUsers": false,
         "questions": [],
         "channel": {
             "prefix": "other-",
             "suffix": "user-name",
-            "category": "DIEN_ID_CATEGORY_CHUA_TICKET",
-            "closedCategory": "DIEN_ID_CATEGORY_LUU_TRU",
+            "category": "1434037389097173085",
+            "closedCategory": "1466448620302630913",
             "backupCategory": "",
             "claimedCategory": [],
             "topic": "Vấn đề khác"
