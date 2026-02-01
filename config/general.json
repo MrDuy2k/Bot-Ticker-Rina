@@ -12,7 +12,7 @@
     "language":"vietnamese",
     "prefix":"!ticket ",
     "serverId":"1400311075731148992",
-    "globalAdmins":["1444715036399370250"],
+    "globalAdmins":["1444713948866678856"],
 
     "slashCommands":true,
     "textCommands":true,
